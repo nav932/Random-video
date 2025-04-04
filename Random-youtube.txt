@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random YouTube Link</title>
+</head>
+<body>
+  <script>
+    const links = [
+      "https://youtu.be/PyFN_FYwqvc?si=OdC9y3R7hokkGkyU",
+      "https://www.youtube.com/watch?v=Zayy6eoSzXk&feature=youtu.be"
+    ];
+    const randomLink = links[Math.floor(Math.random() * links.length)];
+    window.location.href = randomLink;
+  </script>
+</body>
+</html>
